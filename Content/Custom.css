@@ -1,0 +1,90 @@
+﻿/*Estilos Customizados*/
+.obrigatorio {
+	border-left: red solid 3px!important;
+}
+/*Ajuste das tabelas*/
+table tbody td .btn-toolbar, table tbody td .btn-group  {
+	margin-bottom: 0;
+}
+/*Loading*/
+tr.loading-table td{
+	background: url('../Imagens/loading-bar.gif') no-repeat 50% 50%;
+	height: 20px;
+}
+img.image-input {
+	cursor: pointer;
+}
+.img-wrapper {
+	position: relative;
+	min-height: 232px;
+	min-width: 360px;
+	width: 360px;
+}
+.img-wrapper:hover .hover-image{
+	display: block;
+	opacity: 1;
+}
+.hover-image {
+	display:block;
+	opacity: 0;
+	position: absolute;
+	padding: 50px 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(255,255,255,.5);
+	top:0;
+    left:0;
+	cursor: pointer;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.sky-form .html{
+position: relative;
+display: block;
+}
+.sky-form .btn.btn-cep {
+	margin-top: 0;
+}
+.sky-form.cartContent .btn-primary{
+	margin: 0;
+}
+.note-editor {
+	border: 2px solid #e5e5e5!important;
+	background: #fff;
+	font: 15px/19px 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #404040;
+}
+.note-editor .note-toolbar {
+	background-color: #f5f5f5;
+	border-bottom: 2px solid #e5e5e5!important;
+}
+.note-editable {
+	cursor: text;
+}
+/*Erros*/
+.field-validation-error {
+	color: #fff;
+	background: #FF3300;
+	padding: 3px 5px;
+}
+/*Logo*/
+a.logo img {
+	height: 100px;
+}
+/*Cabeçalho*/
+.container-header {
+	background: url('../Imagens/fundo-header.jpg') 50%;
+}
+.info-topbar,.info-topbar a {
+	color: #ffffff;
+}
+.info-topbar {
+	color: #ffffff;
+	padding: 15px;
+	background: rgba(20, 103, 148, .7);
+	font-size: 20px;
+	/*border-radius: 10px;*/
+	font-weight: bold;
+}
